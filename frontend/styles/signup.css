@@ -55,6 +55,7 @@ body {
     margin: auto;
     margin-left: 6%;
     margin-bottom: 8px;
+
 }
 
 #middle-nav a {
@@ -108,99 +109,32 @@ body {
 
 
 /*   nav completed */
-#whole {
-    width: 90%;
+
+#main {
+    width: 20%;
     margin: auto;
-    background-color: #f7f7f7;
 }
 
-#g3 {
-    display: flex;
-}
+form input {
+    display: block;
+    border: 2px solid gainsboro;
+    border-radius: 7px;
+    color: black;
 
-#g3 div {
-    width: 23%;
-    margin: 5px;
-    /* border:1px solid red; */
+    padding: 1% 5% 1% 5%;
     text-align: center;
-}
-
-#g3 div img {
-    width: 100%;
-    margin-bottom: 0;
-}
-
-#g3 p {
-
-    background-color: black;
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0;
-    margin-top: -3px;
-}
-
-#trending {
-    background-color: #ededed;
-    width: 11%;
-    padding: 6px;
-    margin-right: 30px;
-}
-
-#trending p {
-    font-size: 13px;
-}
-
-#trending div {
-    margin-top: 10px;
-    border-bottom: 1px solid gainsboro;
-}
-
-#trending h4 {
-    font-size: 18px;
-    color: #DA0000;
-}
-
-#trending p:hover {
-    color: #DA0000;
-}
-
-#middle {
-    display: flex;
-}
-
-.m1 {
     background-color: white;
-    /* border: 1px solid; */
-    width: 68%;
-    margin: 2px 0 20px 0;
 }
 
-.inside-div {
-    display: flex;
-    width: 40%;
+#submit {
+    margin-top: 15px;
+    /* margin-left: 20px; */
+    background-color: orangered;
+    color: white;
+    padding: 5px 63px 5px 63px;
 
 }
 
-.inside-div>div {
-    margin: auto;
-    margin: 18px
-}
-
-.inside-div p {
-    color: #595959;
-}
-
-.inside-div p:hover {
-    color: #DA0000;
-}
-
-.inside-div img {
-    padding: 2px;
-    border: 1px solid gainsboro;
-}
-
-.m1>h4 {
-    margin: 2px 0 0 3px;
-    color: red
+form p {
+    color: rgb(220, 20, 113);
 }
