@@ -204,3 +204,50 @@ body {
     margin: 2px 0 0 3px;
     color: red
 }
+
+#product-finder {
+    width: 66%;
+}
+
+#product-finder img {
+    width: 100%;
+}
+
+#pp {
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    background-color: white;
+}
+
+#pp>div {
+    width: 15%;
+    margin: auto;
+
+}
+
+#pp>div>div {
+    width: 50%;
+    height: 100px;
+    margin-left: 20px;
+    /* border: 1px solid red; */
+}
+
+#pp img {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+
+}
+
+#pp p {
+    /* margin-top: 2px; */
+    font-size: 14px;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+#pp p+p {
+    text-align: left;
+    margin-left: 5px;
+}
