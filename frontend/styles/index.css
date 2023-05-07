@@ -5,6 +5,10 @@ body {
     font-weight: 400;
 }
 
+p {
+    font-size: 14px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -40,14 +44,21 @@ body {
 }
 
 #logo {
+    display: flex;
     /* width: 8%; */
     width: 90%;
-    margin: auto;
+    /* margin: auto; */
+    justify-content: space-around;
+    /* text-align: center; */
 
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 #logo img {
-    width: 8%;
+    width: 10%;
 }
 
 #middle-nav {
@@ -141,7 +152,7 @@ body {
 }
 
 #trending {
-    background-color: #ededed;
+
     width: 11%;
     padding: 6px;
     margin-right: 30px;
@@ -151,7 +162,13 @@ body {
     font-size: 13px;
 }
 
-#trending div {
+#trending>div {
+    background-color: #ededed;
+    padding: 3px;
+}
+
+#trending>div>div {
+
     margin-top: 10px;
     border-bottom: 1px solid gainsboro;
 }
@@ -167,12 +184,14 @@ body {
 
 #middle {
     display: flex;
+    margin-top: 30px;
+
 }
 
 .m1 {
     background-color: white;
     /* border: 1px solid; */
-    width: 68%;
+    width: 90%;
     margin: 2px 0 20px 0;
 }
 
@@ -206,7 +225,7 @@ body {
 }
 
 #product-finder {
-    width: 66%;
+    width: 90%;
 }
 
 #product-finder img {
@@ -250,4 +269,139 @@ body {
 #pp p+p {
     text-align: left;
     margin-left: 5px;
+}
+
+#pplr {
+    background-color: white;
+}
+
+#pplr>div {
+    display: flex;
+    margin: auto;
+}
+
+#pplr>div>div {
+    width: 30%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#pplr p {
+    font-size: 14px;
+}
+
+#ent {
+    display: flex;
+}
+
+#ent div {
+    width: 20%;
+    margin: auto;
+}
+
+#ent p {
+    font-size: 14px;
+}
+
+#mid {
+    width: 65%;
+}
+
+#right-end {
+    width: 20%;
+
+
+    margin-right: 0%;
+}
+
+#list {
+    display: flex;
+    margin: auto;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px;
+}
+
+#list:nth-child(1) p {
+
+    margin-right: 10px;
+}
+
+#right-end h4 {
+    background-color: #DA0000;
+    color: white;
+    padding: 2px;
+}
+
+#right-end p:hover {
+    color: #DA0000;
+    cursor: pointer;
+}
+
+.news {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.news>img {
+    width: 50%;
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#stories {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stories img {
+    width: 90%;
+}
+
+#stories div {
+    padding: 2px;
+    border: 1px solid gainsboro;
+
+}
+
+#stories p {
+    padding-bottom: 2px;
+    border-bottom: 1px solid gainsboro;
+}
+
+#info {
+    background-color: black;
+    padding: 1% 7%;
+}
+
+#info p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+#bottom-footer {
+    padding: 30px 100px;
+    background-color: #414347;
+    display: flex;
+    justify-content: space-around;
+    /* margin: auto; */
+}
+
+#bottom-footer div {
+    width: 20%;
+}
+
+#bottom-footer img {
+    width: 50%;
+
+}
+
+#bottom-footer p {
+    color: #bcbabb;
+    cursor: pointer;
+    font-family: sans-serif;
 }
