@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script
+      src="https://kit.fontawesome.com/24c494a6b6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom css file link  -->
+
+    <link rel="stylesheet" href="./styles/paymentGateway.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <div class="row">
+          <div class="col">
+            <h3 class="title">billing address</h3>
+
+            <div class="inputBox">
+              <span> Name :</span>
+
+              <input type="text" placeholder="Name" />
+            </div>
+
+            <div class="inputBox">
+              <span>email :</span>
+
+              <input type="email" placeholder="example@example.com" />
+            </div>
+
+            <div class="inputBox">
+              <span>address :</span>
+
+              <input type="text" placeholder="room - street - locality" />
+            </div>
+
+            <div class="inputBox">
+              <span>city :</span>
+
+              <input type="text" placeholder="mumbai" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>state :</span>
+
+                <input type="text" placeholder="delhi" />
+              </div>
+
+              <div class="inputBox">
+                <span>pin code :</span>
+
+                <input type="text" placeholder="123 456" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <h3 class="title">payment</h3>
+
+            <div class="inputBox">
+              <span>cards accepted :</span>
+
+              <img src="" alt="" />
+            </div>
+
+            <div class="inputBox">
+              <span id="l1">cardholder name :</span>
+
+              <input type="text" placeholder="name" id="i1" />
+            </div>
+
+            <div class="inputBox">
+              <span id="l2"> card number :</span>
+
+              <input id="i2" type="number" placeholder="1111-2222-3333-4444" />
+            </div>
+
+            <div class="inputBox">
+              <span>exp month :</span>
+
+              <input type="text" placeholder="january" />
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span id="l3">exp year :</span>
+
+                <input id="i3" type="number" placeholder="2023" />
+              </div>
+
+              <div class="inputBox">
+                <span id="l4">CVV :</span>
+
+                <input id="i4" type="text" placeholder="1234" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a href="#"
+          ><input
+            type="submit"
+            value="pay now"
+            class="submit-btn"
+            name="Pay Now"
+            id="Pay Now"
+            class="trigger_popup"
+            id="success_trigger"
+        /></a>
+
+        <!-- popup -->
+
+        <!-- <a href="#" class="trigger_popup" id="success_trigger"   value="pay now" class="submit-btn" name="Pay Now" id="Pay Now">Success</a> -->
+
+        <div class="popup" id="success">
+          <div class="popup-content">
+            <div class="imgbox">
+              <img src="" alt="" class="img" />
+            </div>
+
+            <div class="title">
+              <h3>Success!</h3>
+            </div>
+
+            <p class="para">Your account has been created successfully</p>
+
+            <form action="">
+              <a href="#" class="button" id="s_button">OKAY</a>
+            </form>
+          </div>
+        </div>
+
+        <!--  -->
+      </form>
+    </div>
+  </body>
+  <script src="./scripts/paymentGateway.js"></script>
+</html>
