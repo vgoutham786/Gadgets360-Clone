@@ -120,31 +120,136 @@ p {
 
 /*   nav completed */
 
-#main {
-    width: 20%;
+#mid {
+
+    width: 90%;
     margin: auto;
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-around; */
 }
 
-form input {
-    display: block;
-    border: 2px solid gainsboro;
-    border-radius: 7px;
-    color: black;
-
-    padding: 1% 5% 1% 5%;
-    text-align: center;
-    background-color: white;
+#prod {
+    width: 60%;
 }
 
-#submit {
-    margin-top: 15px;
-    /* margin-left: 20px; */
-    background-color: orangered;
+#prod>div {
+    margin-bottom: 50px;
+    /* background-color: #ccd2de; */
+    padding: 3%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+}
+
+#im {
+    width: 30%;
+    margin-right: 10px;
+}
+
+#im img {
+    width: 100%;
+}
+
+#prod>div>div {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+#dis {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#dis>div {
+    margin: 10px 20px
+}
+
+.cart {
+    background-color: #DA0000;
+    border: 0;
+    border-radius: 5px;
+    padding-top: 0;
+    margin-left: 400px;
     color: white;
-    padding: 5px 63px 5px 63px;
+    cursor: pointer;
+}
+
+.pri {
+    margin-left: 20px;
+}
+
+#summary {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    margin-left: 80px;
+    padding: 30px;
+    height: fit-content;
+}
+
+#summary>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#summary p {
+    font-size: 20px;
+}
+
+#summary>div:nth-child(1) {
+    margin-right: 80px;
+}
+
+#summary button {
+    background-color: #ff0000;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
 
 }
 
-form p {
-    color: rgb(220, 20, 113);
+
+
+footer {
+    margin-top: 100px;
+}
+
+#info {
+    background-color: black;
+    padding: 1% 7%;
+}
+
+#info p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+#bottom-footer {
+    padding: 30px 100px;
+    background-color: #414347;
+    display: flex;
+    justify-content: space-around;
+    /* margin: auto; */
+}
+
+#bottom-footer div {
+    width: 20%;
+}
+
+#bottom-footer img {
+    width: 50%;
+
+}
+
+#bottom-footer p {
+    color: #bcbabb;
+    cursor: pointer;
+    font-family: sans-serif;
 }

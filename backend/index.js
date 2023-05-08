@@ -1,7 +1,7 @@
 const express = require("express");
 const { connectToDb } = require("./db");
 const { userRoute } = require("./Routes/user.route");
-const { articleRoute } = require("./Routes/article.route");
+const { laptopRoute } = require("./Routes/laptop.route");
 const { timeLogger } = require("./middleware/timestamp.middleware");
 const { limiter } = require("./middleware/rateLimiter.middleware");
 const cors = require("cors");
@@ -11,12 +11,10 @@ app.use(cors())
 app.use(express.json());
 
 //const port = process.argv[2];
-console.log(port)
+//console.log(port)
 
-app.use(timeLogger)
-app.use(limiter)
 app.use("/user", userRoute);
-app.use("/articles", articleRoute);
+app.use("/laptops", laptopRoute);
 
 
 

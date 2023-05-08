@@ -38,7 +38,7 @@ userRoute.post("/login", async (req, res) => {
                 var token = jwt.sign({ userID: data._id ,user:data.name}, 'eval');
                 res.status(200).send({ msg: "Login successfull", token: token })
             } else {
-                res.status(200).send({ msg: "Invalid password" })
+                res.status(400).send({ msg: "Invalid password" })
             }
         });
 

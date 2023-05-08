@@ -32,10 +32,16 @@ async function login(obj) {
         })
 
         let data = await res.json();
-        let token = data.token;
-        localStorage.setItem("token", JSON.stringify(token))
-        alert("User Login Successfull");
-        location.replace("index.html")
+        console.log(data)
+        if (data.msg != "Invalid password") {
+            let token = data.token;
+            localStorage.setItem("token", JSON.stringify(token))
+            alert("User Login Successfull");
+            location.replace("index.html")
+        } else {
+            alert("Wrong credentials")
+        }
+
     } catch (error) {
         console.log(error)
     }

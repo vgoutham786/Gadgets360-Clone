@@ -5,6 +5,10 @@ body {
     font-weight: 400;
 }
 
+p {
+    font-size: 14px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -40,14 +44,21 @@ body {
 }
 
 #logo {
+    display: flex;
     /* width: 8%; */
     width: 90%;
-    margin: auto;
+    /* margin: auto; */
+    justify-content: space-around;
+    /* text-align: center; */
 
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 #logo img {
-    width: 8%;
+    width: 10%;
 }
 
 #middle-nav {
@@ -55,7 +66,6 @@ body {
     margin: auto;
     margin-left: 6%;
     margin-bottom: 8px;
-
 }
 
 #middle-nav a {
