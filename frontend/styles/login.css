@@ -13,6 +13,10 @@ p {
     box-sizing: border-box;
 }
 
+a {
+    color: orangered;
+}
+
 #top-nav {
     display: flex;
     padding: 10px;
@@ -150,4 +154,42 @@ form input {
 
 form p {
     color: rgb(220, 20, 113);
+}
+
+footer {
+    margin-top: 200px;
+}
+
+#info {
+    background-color: black;
+    padding: 1% 7%;
+}
+
+#info p {
+    color: white;
+    font-family: sans-serif;
+    line-height: 22px;
+}
+
+#bottom-footer {
+    padding: 30px 100px;
+    background-color: #414347;
+    display: flex;
+    justify-content: space-around;
+    /* margin: auto; */
+}
+
+#bottom-footer div {
+    width: 20%;
+}
+
+#bottom-footer img {
+    width: 50%;
+
+}
+
+#bottom-footer p {
+    color: #bcbabb;
+    cursor: pointer;
+    font-family: sans-serif;
 }
