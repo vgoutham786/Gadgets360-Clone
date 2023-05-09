@@ -55,6 +55,7 @@ function checkoutFunction() {
 
   if (ask) {
     // window.alert("Th");
+    localStorage.setItem("cart", null)
 
     window.location.href = "index.html";
   }

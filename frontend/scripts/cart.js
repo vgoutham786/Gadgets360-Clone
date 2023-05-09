@@ -39,6 +39,18 @@ function display(arr) {
         </div>
         <div>
         <p class="pri"><b>PRICE: </b>₹${e.price}</p>
+        <p class="quan"> <b>Quantity :</b> <select name="" class="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select></p>
         <button data-id="${e._id}" class="cart">Remove</button>
         </div>
     </div>`
@@ -50,10 +62,21 @@ function display(arr) {
 
     totalItems.innerText = cartArray.length;
     let sum = 0;
-    cartArray.map((e) => {
-        sum += Number(e.price)
-    })
-    totalSum.innerText = `₹${sum}`;
+    let quantity = document.getElementsByClassName("quantity");
+    sumprice();
+    function sumprice() {
+        sum = 0;
+        arr.forEach((element, index) => {
+            sum += +(element.price) * quantity[index].value;
+        });
+    }
+
+    let sumbill = sum.toLocaleString("en-IN");
+    totalSum.innerText = `₹${sumbill}`
+    // cartArray.map((e) => {
+    //     sum += Number(e.price)
+    // })
+    // totalSum.innerText = ;
     console.log(cart1)
 
     cart1.forEach((e) => {
@@ -71,6 +94,21 @@ function display(arr) {
             display(cartArray)
         })
     })
+
+    for (let i = 0; i < quantity.length; i++) {
+        quantity[i].addEventListener("change", () => {
+            price = quantity[i].value * arr[i].price;
+            changedPrice = price.toLocaleString("en-IN");
+
+            sumprice();
+            sumbill = sum.toLocaleString("en-IN");
+
+            totalSum.innerText = `₹${sumbill}`
+
+
+            console.log(sum);
+        });
+    }
 
 }
 

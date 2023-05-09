@@ -131,6 +131,7 @@ p {
 
 #prod {
     width: 60%;
+   
 }
 
 #prod>div {
@@ -188,6 +189,10 @@ p {
     margin-left: 80px;
     padding: 30px;
     height: fit-content;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 30px;
+   
 }
 
 #summary>div {

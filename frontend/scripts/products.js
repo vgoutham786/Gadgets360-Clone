@@ -1,12 +1,17 @@
 let products = document.getElementById("prod");
 let cartArray = JSON.parse(localStorage.getItem("cart")) || [];
 let htl = document.getElementById("htl");
-let lth = document.getElementById("lth")
+let lth = document.getElementById("lth");
+let hp = document.getElementById("hp")
+let lenovo = document.getElementById("lenovo")
+let acer = document.getElementById("acer")
+let apple = document.getElementById("apple")
+let dell = document.getElementById("dell")
 data()
 
 async function data() {
     try {
-        let res = await fetch("http://localhost:8080/laptops/");
+        let res = await fetch("https://tan-super-horse.cyclic.app/laptops/");
         let data = await res.json();
         let array = data.laptops;
         display(array)
@@ -17,7 +22,7 @@ async function data() {
 
 htl.addEventListener("click", async () => {
     try {
-        let res = await fetch("http://localhost:8080/laptops/?sort=des");
+        let res = await fetch("https://tan-super-horse.cyclic.app/laptops/?sort=des");
         let data = await res.json();
         let array = data.laptops;
         display(array)
@@ -27,7 +32,7 @@ htl.addEventListener("click", async () => {
 })
 lth.addEventListener("click", async () => {
     try {
-        let res = await fetch("http://localhost:8080/laptops/?sort=asc");
+        let res = await fetch("https://tan-super-horse.cyclic.app/laptops/?sort=asc");
         let data = await res.json();
         let array = data.laptops;
         display(array)
@@ -36,6 +41,56 @@ lth.addEventListener("click", async () => {
     }
 })
 
+hp.addEventListener("change", async () => {
+    try {
+        let res = await fetch(`https://tan-super-horse.cyclic.app/laptops?brand=${hp.value}`);
+        let data = await res.json();
+        let array = data.laptops;
+        display(array)
+    } catch (error) {
+        console.log(error)
+    }
+})
+lenovo.addEventListener("change", async () => {
+    try {
+        let res = await fetch(`https://tan-super-horse.cyclic.app/laptops?brand=${lenovo.value}`);
+        let data = await res.json();
+        let array = data.laptops;
+        display(array)
+    } catch (error) {
+        console.log(error)
+    }
+})
+acer.addEventListener("change", async () => {
+    try {
+        let res = await fetch(`https://tan-super-horse.cyclic.app/laptops?brand=${acer.value}`);
+        let data = await res.json();
+        let array = data.laptops;
+        display(array)
+    } catch (error) {
+        console.log(error)
+    }
+})
+apple.addEventListener("change", async () => {
+    try {
+        let res = await fetch(`https://tan-super-horse.cyclic.app/laptops?brand=${apple.value}`);
+        let data = await res.json();
+        let array = data.laptops;
+        display(array)
+    } catch (error) {
+        console.log(error)
+    }
+})
+dell.addEventListener("change", async () => {
+    try {
+        let res = await fetch(`https://tan-super-horse.cyclic.app/laptops?brand=${dell.value}`);
+        let data = await res.json();
+        let array = data.laptops;
+        display(array)
+    } catch (error) {
+        console.log(error)
+    }
+})
 function display(arr) {
     let x = ``;
     arr.map((e) => {
@@ -82,7 +137,7 @@ function display(arr) {
         e.addEventListener("click", async (e) => {
             console.log(e)
             let id = e.target.dataset.id;
-            let res = await fetch(`http://localhost:8080/laptops/${id}`)
+            let res = await fetch(`https://tan-super-horse.cyclic.app/laptops/${id}`)
             let data = await res.json();
 
 
