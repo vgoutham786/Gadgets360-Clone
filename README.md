@@ -1,64 +1,51 @@
 # goofy-tray-3901
 
-Gadgets360 Clone [All360]
+# Gadgets360 Clone [All360]
 
+This is a project called "Gadgets360 Clone [All360]", which is a replica of a technology news and reviews website called "ALL360". The project was completed in five days during an individual construct week at Masai School.
 
-Deployed Link : https://spiffy-sunburst-9a48b4.netlify.app/
+## Objective
 
-Objective
+The objective of the project is to create a positive and engaging experience for potential customers that will ultimately lead to increased sales and customer loyalty.
 
-The objective of a Gadgets website is to create a positive and engaging experience for potential customers that will ultimately lead to increased sales and customer loyalty.
+## Tech Stack
 
-This was a individual construct week project at Masai School. This project was built in span of 5 Days.
+The tech stack used for the project includes:
 
-About ALL360
+- HTML5
+- CSS3
+- JavaScript
+- Node.js
+- Express
+- MongoDB
 
-ALL 360, an NDTV venture, is India's leading technology news, reviews and information website. Publishing dozens of stories per day, ALL 360 brings you all the latest from the world of smartphones, laptops, TVs, wearables, accessories, audio products and many more tech product categories, along with Web services, apps, streaming, gaming, science, and finance. 
+## Features
 
-Tech Stack
+The website includes the following features:
 
-Frontend
+- User authentication
+- User product management
+- Series and shows gallery
+- Product adding to cart and deleting from cart
+- Different pages related to the brand
+- Payment options
+- Sorting and filtering
 
-HTML 5
+## Pages
 
-CSS 3
+The website includes the following pages:
 
-JavaScript
+- Home page
+- Signin page
+- Signup page
+- Product page
+- Cart page
+- Payment gateway page
 
-Backend
+## Deployment
 
-Node.js
+The project has been deployed and can be accessed at https://spiffy-sunburst-9a48b4.netlify.app/.
 
-express
+## Contributors
 
-mongoDB
-
-Features
-
-User Authentication
-
-User Product Management
-
-Series & Shows Gallery
-
-Product adding to cart, and deleting from Cart
-
-Different Page Related to Brand
-
-Payment Option
-
-Sorting and Filtering.
-
-Pages
-
-Home Page
-
-Signin Page
-
-Signup Page
-
-Product Page
-
-Cart Page
-
-Payment Gateway Page
+This project was built by an individual during an individual construct week at Masai School. 
