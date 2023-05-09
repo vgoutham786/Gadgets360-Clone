@@ -1,7 +1,7 @@
 
 # Gadgets360 Clone [All360]
 
-This is a project called "Gadgets360 Clone [All360]", which is a replica of a technology news and reviews website called "ALL360". The project was completed in five days during an individual construct week at Masai School.
+This is a project called All360, which is a replica of a technology news and reviews website called "Gadgets360". 
 
 ## Objective
 
