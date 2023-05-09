@@ -1,4 +1,3 @@
-# goofy-tray-3901
 
 # Gadgets360 Clone [All360]
 
