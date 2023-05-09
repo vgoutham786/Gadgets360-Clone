@@ -258,3 +258,6 @@ footer {
     cursor: pointer;
     font-family: sans-serif;
 }
+a{
+    color: orangered;
+}
