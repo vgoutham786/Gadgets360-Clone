@@ -13,6 +13,10 @@ p {
     box-sizing: border-box;
 }
 
+a {
+    color: orangered;
+}
+
 #top-nav {
     display: flex;
     padding: 10px;
@@ -370,6 +374,10 @@ p {
 #stories p {
     padding-bottom: 2px;
     border-bottom: 1px solid gainsboro;
+}
+
+footer {
+    margin-top: 70px;
 }
 
 #info {

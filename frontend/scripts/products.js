@@ -123,6 +123,7 @@ function display(arr) {
         </div>
         <div>
         <p class="pri"><b>PRICE: </b>₹${e.price}</p>
+        <button data-id="${e._id}" class="vd">View Details</button>
         <button data-id="${e._id}" class="cart">Add To Cart</button>
         </div>
     </div>`
@@ -130,6 +131,7 @@ function display(arr) {
 
     products.innerHTML = x;
     let cart1 = document.querySelectorAll(".cart");
+    let vd = document.querySelectorAll(".vd");
 
     console.log(cart1)
 
@@ -158,6 +160,16 @@ function display(arr) {
             // location.replace("./cart.html")
         })
     })
+    vd.forEach((e) => {
+        e.addEventListener("click", async (e) => {
+            console.log(e)
+            let id = e.target.dataset.id;
 
+            localStorage.setItem("userID", JSON.stringify(id))
+
+
+            location.replace("./individualpage.html")
+        })
+    })
 }
 
