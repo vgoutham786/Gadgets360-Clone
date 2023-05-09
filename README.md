@@ -17,10 +17,12 @@ Frontend
 HTML 5
 CSS 3
 JavaScript
+
 Backend
 Node.js
 express
 mongoDB
+
 Features
 User Authentication
 User Product Management
@@ -29,6 +31,7 @@ Product adding to cart, and deleting from Cart
 Different Page Related to Brand
 Payment Option
 Sorting and Filtering.
+
 Pages
 Home Page
 Signin Page
