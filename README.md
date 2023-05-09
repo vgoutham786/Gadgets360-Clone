@@ -44,7 +44,7 @@ The website includes the following pages:
 
 ## Deployment
 
-The project has been deployed and can be accessed at https://shiny-axolotl-a8bd77.netlify.app
+The project has been deployed and can be accessed at https://eloquent-profiterole-370e4d.netlify.app
 
 ## Contributors
 
