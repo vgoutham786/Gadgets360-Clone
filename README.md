@@ -43,7 +43,7 @@ The website includes the following pages:
 
 ## Deployment
 
-The project has been deployed and can be accessed at https://spiffy-sunburst-9a48b4.netlify.app/.
+The project has been deployed and can be accessed at [https://spiffy-sunburst-9a48b4.netlify.app/.](https://kaleidoscopic-arithmetic-339188.netlify.app)
 
 ## Contributors
 
