@@ -1,7 +1,7 @@
 
 # Gadgets360 Clone [All360]
 
-This is a project called All360, which is a replica of a technology news and reviews website called "Gadgets360". 
+This is a project called "ALL-360", which is a replica of a technology news and reviews website called "Gadgets360". 
 
 ## Objective
 
@@ -26,7 +26,7 @@ The website includes the following features:
 - User product management
 - Series and shows gallery
 - Product adding to cart and deleting from cart
-- Different pages related to the brand
+- Individual pages related to the product
 - Payment options
 - Sorting and filtering
 
@@ -38,6 +38,7 @@ The website includes the following pages:
 - Signin page
 - Signup page
 - Product page
+- Individual product page
 - Cart page
 - Payment gateway page
 
