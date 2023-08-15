@@ -44,7 +44,7 @@ The website includes the following pages:
 
 ## Deployment
 
-The project has been deployed and can be accessed at https://eloquent-profiterole-370e4d.netlify.app
+The project has been deployed and can be accessed at https://all360.netlify.app/
 
 ## Contributors
 
